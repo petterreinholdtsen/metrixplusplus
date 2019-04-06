@@ -1,0 +1,17 @@
+Source: metrixplusplus
+Section: devel
+Priority: optional
+Maintainer: Petter Reinholdtsen <pere@debian.org>
+Rules-Requires-Root: no
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep:
+  , python3
+Standards-Version: 4.3.0
+Vcs-Browser: https://github.com/petterreinholdtsen/metrixplusplus
+Vcs-Git: https://github.com/petterreinholdtsen/metrixplusplus
+
+Package: metrixplusplus
+Architecture: all
+Depends: ${misc:Depends}
+  , ${python:Depends}
+Description: Code metric measurement
